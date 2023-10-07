@@ -1,0 +1,258 @@
+/*Navbar css*/
+.navbar-text {
+  color: white !important;
+}
+.card-text {
+  color: white !important;
+}
+.card-title {
+  color: white !important;
+}
+.theme {
+  background-color: rgb(10, 17, 40) !important;
+}
+.text-body-secondary {
+  color: white !important;
+}
+.navbar-brand img {
+  width: 80px;
+  height: 60px;
+}
+/*Carousel css*/
+.carousel-container img {
+  max-width: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+  max-height: 600px;
+}
+
+.carousel-container h5,
+p {
+  color: whitesmoke;
+}
+.carousel-inner p {
+  margin: 10px;
+}
+
+/*Card Css*/
+.card {
+  margin-top: 30px;
+  margin-left: 100px;
+  max-width: 720px !important;
+  background-color: rgb(10, 17, 40) !important;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+/*songs playlist css*/
+.song-lists {
+  margin-bottom: 2px;
+  max-width: 720px !important;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+.individual {
+  margin: 0px 0px 4px 100px;
+  max-width: 720px !important;
+  border: 1px solid black;
+  color: white;
+}
+.individual img {
+  margin-left: 10px;
+  min-height: 30px;
+  min-width: 60px;
+  max-height: 30px;
+  max-width: 50px;
+}
+
+.song-container {
+  color: white;
+  max-width: 720px;
+
+  height: 600px;
+  margin-left: 100px;
+}
+.row-container {
+  position: relative;
+  height: 60px;
+  width: 720px;
+
+  margin-bottom: 4px;
+  background-color: rgba(0, 0, 0, 0.458);
+}
+.row-container:hover {
+  height: 65px;
+  width: 720px;
+  background-color: rgba(0, 0, 0, 0.718);
+}
+.column-container {
+  display: block;
+}
+.image-container img {
+  max-width: 10%;
+  max-height: 100%;
+  min-width: 10%;
+  min-height: 90%;
+}
+.row-container span {
+  margin-left: 4px;
+}
+.button-container {
+  position: absolute;
+  right: 3%;
+  top: 25%;
+  color: white;
+}
+.button-container:hover {
+  color: orange;
+}
+.wishlist {
+  position: absolute;
+  right: 12%;
+  top: 25%;
+  color: grey;
+}
+.wishlist:hover {
+  color: red;
+}
+/*main and aside css*/
+.main-section {
+  display: flex;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
+/*similar artist css*/
+.similar-artist-container {
+  height: 300px;
+  width: 400px;
+
+  margin-top: 40px;
+}
+.similar-artist {
+  position: relative;
+  height: 60px;
+  width: 400px;
+
+  color: white;
+}
+.similar-artist-span h3 {
+  margin-left: 10px;
+  margin-top: 4%;
+}
+.view-container {
+  position: absolute;
+  right: 5%;
+  bottom: 50%;
+  color: gray;
+}
+.similar-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 20%;
+  min-height: 100%;
+}
+/*Artists css*/
+.artists {
+  position: relative;
+  height: 80px;
+  width: 400px;
+}
+
+.artist-1 {
+  position: absolute;
+  right: 35%;
+  bottom: 15%;
+  color: white;
+  text-align: center;
+}
+.artist-1-small {
+  position: absolute;
+  right: 50%;
+  top: 60%;
+  color: gray;
+  text-align: center;
+  line-height: 0.1 rem;
+  font-size: small;
+}
+.numbers {
+  color: white;
+}
+.recently-image-container img {
+  margin-left: 4px;
+  max-width: 25%;
+  max-height: 100%;
+  min-width: 10%;
+  min-height: 100%;
+}
+.recently-artist-1 {
+  position: absolute;
+  left: 35%;
+  bottom: 15%;
+  color: white;
+  text-align: center;
+}
+/*footer css*/
+.footer-container {
+  position: fixed;
+  width: 800px;
+  height: 60px;
+
+  margin-left: 325px;
+  background-color: rgba(0, 0, 0, 0.745);
+  position: fixed;
+  bottom: 0;
+}
+.footer-container img {
+  max-width: 90px;
+  max-height: 100px;
+
+  padding: 5px;
+}
+.song-name {
+  color: white;
+  position: absolute;
+  left: 12%;
+  top: 25%;
+}
+.footer-container span i {
+  color: white;
+}
+.shuffle {
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+.backward {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+.play {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}
+.forward {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+}
+
+.repeat {
+  position: absolute;
+  left: 55%;
+  top: 25%;
+}
+.volume {
+  position: absolute;
+  left: 60%;
+  top: 25%;
+}

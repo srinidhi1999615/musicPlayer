@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="theme">
+    <!--Built Navbar using Bootstrap Frame work -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary theme">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img src="srilogo.jpg" />
+          </a>
+        </div>
+        <a class="bd-navbar navbar-brand navbar-text" href="#">SriStudio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active navbar-text"
+                aria-current="page"
+                href="#"
+                >Favourites</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <a class="navbar-brand" href="#">
+          <i class="fa-light fa-bell-on" style="color: #7d0d0d;"></i>
+        </a>
+      </div>
+    </nav>
+    <section class="carousel-container">
+      <!--Built Carousel using Bootstrap Frame work -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <a href="#">
+              <img
+                src="https://images.pexels.com/photos/1460037/pexels-photo-1460037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="d-block w-100"
+                alt="..."
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>American Hip-Hop Music</h5>
+              <p>
+                The words "hip" and "hop" have a long history behind the two
+                words being used together. In the 1950s, older folks referred to
+                teen house parties as "hippity hops".
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="#">
+              <img
+                src="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Party-Pop</h5>
+                <p>Best party songs of the year.</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="#">
+              <img
+                src="https://images.pexels.com/photos/16546739/pexels-photo-16546739.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mood Refresher</h5>
+                <p>
+                  There are vast number of songs in Carnatic music that can
+                  refresh a tired brain and are very soothing to listen.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="main-section">
+      <!--Built main section which contains bootstrap card and html div for songs playlist -->
+      <article>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://th.bing.com/th/id/OIP.cMivq30Cf4B81HRer9OjagAAAA?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">KK (singer)</h5>
+                <p class="card-text">
+                  He had a decade of hit songs during the 2000s. KK sang "Love
+                  Pannu" for Harris Jayaraj in 2001, followed by "Kadhal Oru
+                  Thani Katchi" and "Gundu Gundu Ponne".
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary text-white"
+                    >234 tracks | 128 albums</small
+                  >
+                </p>
+                <button type="button" class="btn btn-dark">Play All</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="song-container">
+          <div class="row-container">
+            <span>01</span>
+            <span class="image-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.o-44qqLIqxvFw0kRQKKo2wHaEI?w=305&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            /></span>
+
+            <span class="card-text">Deva Deva</span>
+            <a href="#"
+              ><span class="wishlist"
+                ><i class="fa-regular fa-heart fa-lg"></i></span
+            ></a>
+            <a href="#"
+              ><span class="button-container"
+                ><i
+                  class="fa-sharp fa-solid fa-circle-play fa-2xl movement"
+                ></i></span
+            ></a>
+          </div>
+          <div class="row-container">
+            <span>02</span>
+            <span class="image-container">
+              <img
+                src="https://images.firstpost.com/wp-content/uploads/large_file_plugin/2019/03/1552568904_Shreya825_1.jpg"
+            /></span>
+
+            <span class="card-text">Thodi der</span>
+            <a href="#">
+              <span class="wishlist"
+                ><i class="fa-regular fa-heart fa-lg"></i></span
+            ></a>
+            <a href="#">
+              <span class="button-container"
+                ><i
+                  class="fa-sharp fa-solid fa-circle-play fa-2xl movement"
+                ></i></span
+            ></a>
+          </div>
+          <div class="row-container">
+            <span>03</span>
+            <span class="image-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.4TZJ9ZNtLVswkndN49yzoAHaE8?w=280&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            /></span>
+
+            <span class="card-text">Tu Kya Jaane</span>
+            <a href="#">
+              <span class="wishlist"
+                ><i class="fa-regular fa-heart fa-lg"></i></span
+            ></a>
+            <a href="#">
+              <span class="button-container"
+                ><i
+                  class="fa-sharp fa-solid fa-circle-play fa-2xl movement"
+                ></i></span
+            ></a>
+          </div>
+          <div class="row-container">
+            <span>04</span>
+            <span class="image-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.9VnX44zpAzQyh1A--6pDbQHaEK?w=306&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            /></span>
+
+            <span class="card-text">Buttabomma</span>
+            <a href="#">
+              <span class="wishlist"
+                ><i class="fa-regular fa-heart fa-lg"></i></span
+            ></a>
+            <a href="#">
+              <span class="button-container"
+                ><i
+                  class="fa-sharp fa-solid fa-circle-play fa-2xl movement"
+                ></i></span
+            ></a>
+          </div>
+          <div class="row-container">
+            <span>05</span>
+            <span class="image-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.A_bwL8Tgh9qKdfTlTRFLhgHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            /></span>
+
+            <span class="card-text">kamli</span>
+            <a href="#">
+              <span class="wishlist"
+                ><i class="fa-regular fa-heart fa-lg"></i></span
+            ></a>
+            <a href="#">
+              <span class="button-container"
+                ><i
+                  class="fa-sharp fa-solid fa-circle-play fa-2xl movement"
+                ></i></span
+            ></a>
+          </div>
+
+          <div class="row-container">
+            <span>06</span>
+            <span class="image-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.Wzl-d-8pvcrJ4lkE02gH6wHaFi?w=248&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            /></span>
+
+            <span class="card-text">Jay Ho!</span>
+            <a href="#">
+              <span class="wishlist"
+                ><i class="fa-regular fa-heart fa-lg"></i></span
+            ></a>
+            <a href="#">
+              <span class="button-container"
+                ><i
+                  class="fa-sharp fa-solid fa-circle-play fa-2xl movement"
+                ></i></span
+            ></a>
+          </div>
+          <div class="row-container">
+            <span>07</span>
+            <span class="image-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.CkAeJuccxkMMkhQjcB0ywgHaEo?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            /></span>
+
+            <span class="card-text">Sandese Aate Hai</span>
+            <a href="#">
+              <span class="wishlist"
+                ><i class="fa-regular fa-heart fa-lg"></i></span
+            ></a>
+            <a href="#">
+              <span class="button-container"
+                ><i
+                  class="fa-sharp fa-solid fa-circle-play fa-2xl movement"
+                ></i></span
+            ></a>
+          </div>
+        </div>
+      </article>
+      <aside>
+        <!--Built aside using sections and upper part contains similar artists -->
+        <div class="similar-artist-container">
+          <div class="similar-artist">
+            <span class="similar-artist-span"><h3>Similar Artists</h3></span>
+            <a href="#"><span class="view-container">view all</span></a>
+          </div>
+          <div class="artists">
+            <a href="#">
+              <span class="similar-image-container">
+                <img
+                  src="https://th.bing.com/th/id/OIP.CkAeJuccxkMMkhQjcB0ywgHaEo?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              /></span>
+
+              <span><p class="artist-1">Imagine dragons</p></span>
+              <span><p class="artist-1-small">pop brand</p></span></a
+            >
+          </div>
+          <div class="artists">
+            <a href="#">
+              <span class="similar-image-container">
+                <img
+                  src="https://th.bing.com/th/id/OIP.CkAeJuccxkMMkhQjcB0ywgHaEo?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              /></span>
+
+              <span><p class="artist-1">Imagine dragons</p></span>
+              <span><p class="artist-1-small">pop brand</p></span></a
+            >
+          </div>
+          <div class="artists">
+            <a href="#">
+              <span class="similar-image-container">
+                <img
+                  src="https://th.bing.com/th/id/OIP.CkAeJuccxkMMkhQjcB0ywgHaEo?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              /></span>
+
+              <span><p class="artist-1">Imagine dragons</p></span>
+              <span><p class="artist-1-small">pop brand</p></span></a
+            >
+          </div>
+        </div>
+        <!--Built lower aside using divs and contains other artists -->
+        <div class="similar-artist-container">
+          <div class="similar-artist">
+            <span class="similar-artist-span"><h3>Recently Played</h3></span>
+            <a href="#"> <span class="view-container">view all</span></a>
+          </div>
+          <div class="artists">
+            <span class="numbers">01</span>
+            <a href="#">
+              <span class="recently-image-container">
+                <img
+                  src="https://th.bing.com/th/id/OIP.CkAeJuccxkMMkhQjcB0ywgHaEo?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              /></span>
+
+              <span><p class="recently-artist-1">Sandese Aate Hai</p></span>
+              <span><p class="artist-1-small">pop brand</p></span></a
+            >
+          </div>
+          <div class="artists">
+            <span class="numbers">02</span>
+            <a href="#">
+              <span class="recently-image-container">
+                <img
+                  src="https://th.bing.com/th/id/OIP.Wzl-d-8pvcrJ4lkE02gH6wHaFi?w=248&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              /></span>
+
+              <span><p class="recently-artist-1">Jay Ho!</p></span>
+              <span><p class="artist-1-small">pop brand</p></span></a
+            >
+          </div>
+          <div class="artists">
+            <span class="numbers">03</span>
+            <a href="#">
+              <span class="recently-image-container">
+                <img
+                  src="https://th.bing.com/th/id/OIP.9VnX44zpAzQyh1A--6pDbQHaEK?w=306&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              /></span>
+
+              <span><p class="recently-artist-1">Buttabomma</p></span>
+              <span><p class="artist-1-small">pop brand</p></span></a
+            >
+          </div>
+        </div>
+      </aside>
+    </section>
+    <!--Footer-->
+    <div class="footer-container">
+      <span>
+        <img
+          src="https://th.bing.com/th/id/OIP.o-44qqLIqxvFw0kRQKKo2wHaEI?w=305&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      /></span>
+      <span class="song-name">Deva Deva</span>
+      <a href="#">
+        <span class="shuffle"><i class="fa-solid fa-shuffle"></i></span
+      ></a>
+      <a href="#">
+        <span class="backward"><i class="fa-solid fa-backward-step"></i></span
+      ></a>
+      <a href="#">
+        <span class="play"
+          ><i class="fa-sharp fa-solid fa-circle-play"></i></span
+      ></a>
+      <a href="#">
+        <span class="forward"><i class="fa-solid fa-forward-step"></i></span
+      ></a>
+      <a href="#">
+        <span class="repeat"><i class="fa-solid fa-repeat"></i></span
+      ></a>
+      <a href="#">
+        <span class="volume"><i class="fa-solid fa-volume"></i></span
+      ></a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2ede22d2b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
